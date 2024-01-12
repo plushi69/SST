@@ -1,0 +1,151 @@
+This is the representation in words of all the scenarios i reproduced in the GIVEN-WHEN-THEN format, as we did in class
+
+Scenario 1: Navigate through the website (test_navigate_through_website)
+    Given I open the DemoBlaze website
+    When I navigate through the website
+    Then the navigation is successful
+
+Scenario 2: View product details (test_view_product_details)
+    Given I open the DemoBlaze website
+    When I view product details
+    Then the product details are displayed
+
+Scenario 3: Click logo icon (test_click_logo_icon)
+    Given I open the DemoBlaze website
+    When I click the logo icon
+    Then I am redirected to the home page
+
+Scenario 4: Add product to cart (test_add_product_to_cart)
+    Given I open the DemoBlaze website
+    When I add a product to the cart
+    Then the product is added successfully
+
+Scenario 5: Delete product from cart (test_delete_product_from_cart)
+    Given I open the DemoBlaze website
+    When I add a product to the cart and delete it
+    Then the product is removed from the cart
+
+Scenario 6: View shopping cart (test_view_shopping_cart)
+    Given I open the DemoBlaze website
+    When I view the shopping cart
+    Then the shopping cart is displayed
+
+Scenario 7: Proceed to purchase without products (test_proceed_to_purchase_without_products)
+    Given I open the DemoBlaze website
+    When I proceed to purchase without adding products
+    Then an error is displayed
+
+Scenario 8: Complete purchase without products (test_complete_purchase_without_products)
+    Given I open the DemoBlaze website
+    When I complete the purchase without adding products
+    Then an error is displayed
+
+Scenario 9: Proceed to checkout (test_proceed_to_checkout)
+    Given I open the DemoBlaze website
+    When I add a product to the cart and proceed to checkout
+    Then the checkout process is initiated
+
+Scenario 10: Complete purchase (test_complete_purchase)
+    Given I open the DemoBlaze website
+    When I add a product to the cart and complete the purchase
+    Then the purchase is successful
+
+Scenario 11: View account information (test_view_account_information)
+    Given I open the DemoBlaze website
+    When I log in and view account information
+    Then the account information is displayed
+
+Scenario 12: Logout from account (test_logout_from_account)
+    Given I open the DemoBlaze website
+    When I log in, log out from the account
+    Then I am successfully logged out
+
+Scenario 13: Navigate to phones category (test_navigate_to_phones_category)
+    Given I open the DemoBlaze website
+    When I navigate to the phones category
+    Then the phones category is displayed
+
+Scenario 14: Navigate to laptops category (test_navigate_to_laptops_category)
+    Given I open the DemoBlaze website
+    When I navigate to the laptops category
+    Then the laptops category is displayed
+
+Scenario 15: Navigate to monitors category (test_navigate_to_monitors_category)
+    Given I open the DemoBlaze website
+    When I navigate to the monitors category
+    Then the monitors category is displayed
+
+Scenario 16: Add multiple products to cart (test_add_multiple_products_to_cart)
+    Given I open the DemoBlaze website
+    When I add multiple products to the cart
+    Then the products are added successfully
+
+Scenario 17: Login, delete product from cart (test_login_delete_product_from_cart)
+    Given I open the DemoBlaze website
+    When I log in, add a product to the cart, and delete it
+    Then the product is successfully deleted from the cart
+
+Scenario 18: View and interact with featured products (test_view_and_interact_with_featured_products)
+    Given I open the DemoBlaze website
+    When I view and interact with featured products
+    Then the interaction is successful
+
+Scenario 19: View About Us page (test_view_about_us_page)
+    Given I open the DemoBlaze website
+    When I view the About Us page
+    Then the About Us page is displayed
+
+Scenario 20: Cancel About Us button (test_cancel_about_us_button)
+    Given I open the DemoBlaze website
+    When I click the About Us button and cancel
+    Then the About Us page is not displayed
+
+Scenario 21: View Contact page (test_view_contact_page)
+    Given I open the DemoBlaze website
+    When I view the Contact page
+    Then the Contact page is displayed
+
+Scenario 22: Cancel Contact page (test_cancel_contact_page)
+    Given I open the DemoBlaze website
+    When I click the Contact page and cancel
+    Then the Contact page is not displayed
+
+Scenario 23: Send contact message (test_send_contact_message)
+    Given I open the DemoBlaze website
+    When I send a contact message
+    Then the message is sent successfully
+
+Scenario 24: View and interact with carousel (test_view_and_interact_with_carousel)
+    Given I open the DemoBlaze website
+    When I view and interact with the carousel
+    Then the interaction with the carousel is successful
+
+Scenario 25: Add phone, laptop, monitor to cart (test_add_phone_laptop_monitor_to_cart)
+    Given I open the DemoBlaze website
+    When I add a phone, laptop, and monitor to the cart
+    Then the products are added successfully
+
+Scenario 26: Add and delete phone, laptop, monitor from cart (test_add_and_delete_phone_laptop_monitor_from_cart)
+    Given I open the DemoBlaze website
+    When I add and delete a phone, laptop, and monitor from the cart
+    Then the products are added and deleted successfully
+
+Scenario 27: View and refresh About Us page (test_view_and_refresh_about_us_page)
+    Given I open the DemoBlaze website
+    When I view and refresh the About Us page
+    Then the About Us page is refreshed successfully
+
+Scenario 28: View Contact page, fill, and refresh (test_view_contact_page_and_fill_and_refresh)
+    Given I open the DemoBlaze website
+    When I view the Contact page, fill the form, and refresh
+    Then the Contact page is refreshed successfully
+
+Scenario 29: Proceed to checkout and refresh (test_proceed_to_checkout_and_refresh)
+    Given I open the DemoBlaze website
+    When I add a product to the cart, proceed to checkout, and refresh
+    Then the checkout process is refreshed successfully
+
+Scenario 30: Objects to cart and refresh, and delete (test_objects_to_cart_and_refresh_and_delete)
+    Given I open the DemoBlaze website
+    When I add objects to the cart, refresh, and delete them
+    Then the objects are added, refreshed, and deleted successfully
